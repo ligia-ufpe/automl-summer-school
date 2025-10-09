@@ -18,7 +18,7 @@
   },
   "hero": {
     "title": "II Escola de Verão Avançada em AutoML Responsável",
-    "subtitle": "11 a 14 de novembro de 2025, <a href=\"https://cin.ufpe.br\" target=\"_blank\" rel=\"noopener\">CIn‑UFPE</a>"
+    "subtitle": "11 a 12 de novembro de 2025, <a href=\"https://cin.ufpe.br\" target=\"_blank\" rel=\"noopener\">CIn‑UFPE</a>"
   },
   "partners": {
     "title": "Parceiros"
@@ -70,14 +70,14 @@
     },
     "day1": {"title": "Dia 1",
       "morning": {
-        "title": "Dia 1 — Manhã",
+        "title": "Manhã",
         "item1": "Boas vindas",
         "item2": "Panorama geral da área de AutoML",
         "item3": "Coffee break",
         "item4": "Apresentação dos grupos de pesquisa"
       },
       "afternoon": {
-        "title": "Dia 1 — Tarde",
+        "title": "Tarde",
         "item1": "Workshop científico (grupos de pesquisa)",
         "item2": "Coffee break",
         "item3": "Workshop científico (grupos de pesquisa)",
@@ -86,14 +86,14 @@
     },
     "day2": {"title": "Dia 2",
       "morning": {
-        "title": "Dia 2 — Manhã",
+        "title": "Manhã",
         "item1": "Boas vindas",
         "item2": "Workshop científico (trabalhos de MsC e PhD)",
         "item3": "Coffee break",
         "item4": "Workshop científico (trabalhos de MsC e PhD)"
       },
       "afternoon": {
-        "title": "Dia 2 — Tarde",
+        "title": "Tarde",
         "item1": "Workshop científico (trabalhos de MsC e PhD)",
         "item2": "Coffee break",
         "item3": "Planejamento para cooperação de grupos",

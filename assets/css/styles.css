@@ -335,7 +335,7 @@ img { max-width: 100%; display: block; }
 
 /* Team carousel card tweaks */
 .team-carousel .carousel-slide { 
-  flex-basis: 300px;
+  flex-basis: calc((100% - (20px * 4)) / 5); /* 5 slides visible at once */
   border: none;
   background: transparent;
   box-shadow: none;
@@ -346,6 +346,29 @@ img { max-width: 100%; display: block; }
   box-shadow: none;
   border: none;
 }
+
+/* Responsive team carousel */
+@media (max-width: 1399px) {
+  .team-carousel .carousel-slide {
+    flex-basis: calc((100% - (20px * 3)) / 4); /* 4 slides */
+  }
+}
+@media (max-width: 1099px) {
+  .team-carousel .carousel-slide {
+    flex-basis: calc((100% - (20px * 2)) / 3); /* 3 slides */
+  }
+}
+@media (max-width: 779px) {
+  .team-carousel .carousel-slide {
+    flex-basis: calc((100% - 20px) / 2); /* 2 slides */
+  }
+}
+@media (max-width: 479px) {
+  .team-carousel .carousel-slide {
+    flex-basis: 100%; /* 1 slide */
+  }
+}
+
 .team-card { 
   padding: 16px; 
   display: grid; 

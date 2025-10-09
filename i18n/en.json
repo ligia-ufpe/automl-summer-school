@@ -18,7 +18,7 @@
   },
   "hero": {
     "title": "II Advanced Summer School on Responsible AutoML",
-    "subtitle": "November 11th to 14th, 2025, <a href=\"https://cin.ufpe.br\" target=\"_blank\" rel=\"noopener\">CIn‑UFPE</a>"
+    "subtitle": "November 11th to 12th, 2025, <a href=\"https://cin.ufpe.br\" target=\"_blank\" rel=\"noopener\">CIn‑UFPE</a>"
   },
   "partners": {
     "title": "Partners"
@@ -70,14 +70,14 @@
     },
     "day1": { "title": "Day 1",
       "morning": {
-        "title": "Day 1 — Morning",
+        "title": "Morning",
         "item1": "Welcome",
         "item2": "AutoML landscape overview",
         "item3": "Coffee break",
         "item4": "Research groups introductions"
       },
       "afternoon": {
-        "title": "Day 1 — Afternoon",
+        "title": "Afternoon",
         "item1": "Scientific workshop (research groups)",
         "item2": "Coffee break",
         "item3": "Scientific workshop (research groups)",
@@ -86,14 +86,14 @@
     },
     "day2": { "title": "Day 2",
       "morning": {
-        "title": "Day 2 — Morning",
+        "title": "Morning",
         "item1": "Welcome",
         "item2": "Scientific workshop (MSc and PhD works)",
         "item3": "Coffee break",
         "item4": "Scientific workshop (MSc and PhD works)"
       },
       "afternoon": {
-        "title": "Day 2 — Afternoon",
+        "title": "Afternoon",
         "item1": "Scientific workshop (MSc and PhD works)",
         "item2": "Coffee break",
         "item3": "Group cooperation planning",

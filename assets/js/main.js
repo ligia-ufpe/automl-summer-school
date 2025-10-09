@@ -248,8 +248,10 @@ function initTeamCarousel() {
 
 	const visibleCount = () => {
 		const w = carousel.clientWidth;
-		if (w >= 1100) return 3;
-		if (w >= 780) return 2;
+		if (w >= 1400) return 5;
+		if (w >= 1100) return 4;
+		if (w >= 780) return 3;
+		if (w >= 480) return 2;
 		return 1;
 	};
 
