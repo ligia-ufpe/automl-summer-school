@@ -64,46 +64,28 @@
 			</div>
 		</section>
 
-		<section id="partners" class="section">
-			<div class="container">
-				<h2 data-i18n="partners.title">Partners</h2>
-				<div class="carousel partners" role="region" aria-roledescription="carousel" aria-label="Partners logos">
-					<div class="carousel-viewport">
-						<ul id="partners-track" class="carousel-track" aria-live="polite">
-							<li class="carousel-slide">
-								<img src=".\assets\img\cin.png" alt="CIN logo">
-							</li>
-
-							<li class = "carousel-slide">
-								<img src=".\assets\img\feup.jpg" alt="FEUP logo">
-							</li>
-
-							<li class="carousel-slide">
-								<img src=".\assets\img\facepe.png" alt="FACEPE logo">
-							</li>
-
-							<li class="carousel-slide">
-								<img src=".\assets\img\ligia.png" alt="LIGIA logo">
-							</li>
-
-							<li class="carousel-slide">
-								<img src=".\assets\img\cfra.png" alt="Center for Responsible AI logo">
-							</li>
-
-							<li class="carousel-slide">
-								<img src=".\assets\img\icmc.jpg" alt="ICMC logo">
-							</li>
-						</ul>
-					</div>
-					<div class="carousel-controls">
-						<button class="carousel-prev" aria-label="Previous" aria-controls="partners-track">‹</button>
-						<button class="carousel-next" aria-label="Next" aria-controls="partners-track">›</button>
-					</div>
+	<section id="partners" class="section">
+		<div class="container">
+			<h2 data-i18n="partners.title">Partners</h2>
+			<div class="partners-grid">
+				<div class="partner-logo">
+					<img src=".\assets\img\cin.png" alt="CIN logo">
+				</div>
+				<div class="partner-logo">
+					<img src=".\assets\img\feup.jpg" alt="FEUP logo">
+				</div>
+				<div class="partner-logo">
+					<img src=".\assets\img\facepe.png" alt="FACEPE logo">
+				</div>
+				<div class="partner-logo">
+					<img src=".\assets\img\ligia.png" alt="LIGIA logo">
+				</div>
+				<div class="partner-logo">
+					<img src=".\assets\img\cfra.png" alt="Center for Responsible AI logo">
 				</div>
 			</div>
-		</section>
-
-		<section id="about" class="section">
+		</div>
+	</section>		<section id="about" class="section">
 			<div class="container">
 				<h2 data-i18n="about.title">About</h2>
 				<p data-i18n="about.text">Dive into the future of AI with us at "II Advanced Summer School on Responsible AutoML"! This event is your gateway to the cutting-edge world of Automated Machine Learning (AutoML), all through the lens of ethical AI innovation. It's the perfect spot for researchers, students, and professionals alike to deepen their understanding, connect with like-minded individuals, and work together towards the responsible development of AI. Take this opportunity to improve your knowledge and skills in AutoML. Let's embark on this adventure together!</p>
@@ -138,6 +120,23 @@
 				<div class="carousel team-carousel" role="region" aria-roledescription="carousel" aria-label="Team">
 					<div class="carousel-viewport">
 						<ul id="team-track" class="carousel-track" aria-live="polite">
+
+							<li class="carousel-slide">
+								<div class="team-card">
+									<div class="avatar-ring" aria-hidden="true">
+										<img class="avatar-img" src="https://media.licdn.com/dms/image/v2/C5603AQHaMPan6fV02w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1533763395990?e=2147483647&v=beta&t=YDKrn-aPiVULsFpRroCqvVwaPorcnrlaXwYNxmVfYkY" alt="Photo of Ricardo Prudêncio">
+									</div>
+									<div class="team-head">
+										<h3 class="name">Ricardo Prudêncio</h3>
+										<span class="badge" data-i18n="team.roles.coordinator">Coordinator</span>
+									</div>
+									<p class="bio" data-i18n="team.bio.ufpe">Federal University of Pernambuco, Center for Informatics</p>
+									<div class = "socials">
+										<a href="https://scholar.google.com.br/citations?user=P6InHKcAAAAJ&hl" aria-label="Ricardo Prudêncio Google Scholar" class="soc">+</a>
+									</div>
+								</div>
+							</li>
+							
 							<li class="carousel-slide">
 								<div class="team-card">
 									<div class="avatar-ring" aria-hidden="true">
@@ -145,7 +144,7 @@
 									</div>
 									<div class="team-head">
 										<h3 class="name">Teresa Ludermir</h3>
-										<span class="badge" data-i18n="team.roles.organizer">Coordinator</span>
+										<span class="badge" data-i18n="team.roles.organizer">Organizer</span>
 									</div>
 									<p class="bio" data-i18n="team.bio.ufpe">Federal University of Pernambuco, Center for Informatics</p>
 									<div class="socials">
@@ -160,7 +159,7 @@
 									</div>
 									<div class="team-head">
 										<h3 class="name">Cleber Zanchettin</h3>
-										<span class="badge" data-i18n="team.roles.role">Role</span>
+										<span class="badge" data-i18n="team.roles.Organizer">Organizer</span>
 									</div>
 									<p class="bio" data-i18n="team.bio.ufpe">Federal University of Pernambuco, Center for Informatics</p>
 									<div class="socials">
@@ -175,7 +174,7 @@
 									</div>
 									<div class="team-head">
 										<h3 class="name">George Cavalcanti</h3>
-										<span class="badge" data-i18n="team.roles.role">Role</span>
+										<span class="badge" data-i18n="team.roles.Organizer">Organizer</span>
 									</div>
 									<p class="bio" data-i18n="team.bio.ufpe">Federal University of Pernambuco, Center for Informatics</p>
 									<div class="socials">
@@ -183,21 +182,7 @@
 									</div>
 								</div>
 							</li>
-							<li class="carousel-slide">
-								<div class="team-card">
-									<div class="avatar-ring" aria-hidden="true">
-										<img class="avatar-img" src="https://media.licdn.com/dms/image/v2/C5603AQHaMPan6fV02w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1533763395990?e=2147483647&v=beta&t=YDKrn-aPiVULsFpRroCqvVwaPorcnrlaXwYNxmVfYkY" alt="Photo of Ricardo Prudêncio">
-									</div>
-									<div class="team-head">
-										<h3 class="name">Ricardo Prudêncio</h3>
-										<span class="badge" data-i18n="team.roles.role">Role</span>
-									</div>
-									<p class="bio" data-i18n="team.bio.ufpe">Federal University of Pernambuco, Center for Informatics</p>
-									<div class = "socials">
-										<a href="https://scholar.google.com.br/citations?user=P6InHKcAAAAJ&hl" aria-label="Ricardo Prudêncio Google Scholar" class="soc">+</a>
-									</div>
-								</div>
-							</li>
+						
 							<li class="carousel-slide">
 								<div class="team-card">
 									<div class="avatar-ring" aria-hidden="true">
@@ -205,7 +190,7 @@
 									</div>
 									<div class="team-head">
 										<h3 class="name">Tsang Ing Ren</h3>
-										<span class="badge" data-i18n="team.roles.role">Role</span>
+										<span class="badge" data-i18n="team.roles.organizer">Organizer</span>
 									</div>
 									<p class="bio">Federal University of Pernambuco, Center for Informatics</p>
 									<div class = "socials">
@@ -220,7 +205,7 @@
 									</div>
 									<div class="team-head">
 										<h3 class="name">Carlos Soares</h3>
-										<span class="badge" data-i18n="team.roles.role">Speaker</span>
+										<span class="badge" data-i18n="team.roles.speaker">Speaker</span>
 									</div>
 									<p class="bio" data-i18n="team.bio.feup">University of Porto, Faculty of Engineering</p>
 									<div class = "socials">
@@ -235,7 +220,7 @@
 									</div>
 									<div class="team-head">
 										<h3 class="name">Moisés Santos</h3>
-										<span class="badge" data-i18n="team.roles.role">Speaker</span>
+										<span class="badge" data-i18n="team.roles.speaker">Speaker</span>
 									</div>
 									<p class="bio" data-i18n="team.bio.feup">University of Porto, Faculty of Engineering</p>
 									<div class = "socials">
@@ -274,21 +259,6 @@
 								</div>
 							</li>
 
-							<li class="carousel-slide">
-								<div class="team-card">
-									<div class="avatar-ring" aria-hidden="true">
-										<img class="avatar-img" src="https://c2po.usp.br/wp-content/uploads/sites/1395/2024/11/Andre-Carlos-Ponce-de-Leon-Ferreira-de-Carvalho-768x768.png" alt="Photo of André Carvalho">
-									</div>
-									<div class="team-head">
-										<h3 class="name">André Carvalho</h3>
-										<span class="badge" data-i18n="team.roles.speaker">Speaker</span>
-									</div>
-									<p class="bio" data-i18n="team.bio.usp">University of São Paulo, São Carlos</p>
-									<div class = "socials">
-										<a href="https://scholar.google.com/citations?user=Jx_5GrgAAAAJ" aria-label="André Carvalho Google Scholar" class="soc">+</a>
-									</div>
-								</div>
-							</li>
 
 							<li class="carousel-slide">
 								<div class="team-card">
@@ -306,21 +276,6 @@
 								</div>
 							</li>
 
-							<li class="carousel-slide">
-								<div class="team-card">
-									<div class="avatar-ring" aria-hidden="true">
-										<img class = "avatar-img" src="https://rafaelizbicki.com/authors/admin/avatar_hu4876e8056469b168e26335b0bea6d9cd_69701_270x270_fill_q75_lanczos_center.jpg" alt="Photo of Rafael Izbicki">	
-									</div>
-									<div class="team-head">
-										<h3 class="name">Rafael Izbicki</h3>
-										<span class="badge" data-i18n="team.roles.speaker">Speaker</span>
-									</div>
-									<p class="bio" data-i18n="team.bio.ufscar">Federal University of São Carlos</p>
-									<div class = "socials">
-										<a href="https://scholar.google.com/citations?user=IldCv5AAAAAJ" aria-label="Rafael Izbicki Google Scholar" class="soc">+</a>
-									</div>
-								</div>
-							</li>
 
 						</ul>
 					</div>
