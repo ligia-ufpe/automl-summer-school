@@ -72,32 +72,34 @@
       "morning": {
         "title": "Manhã",
         "item1": "Boas vindas",
-        "item2": "Panorama geral da área de AutoML",
+        "item2": "Palestra 1: Palestrante nacional",
         "item3": "Coffee break",
-        "item4": "Apresentação dos grupos de pesquisa"
+        "item4": "Palestra 2: Palestrante nacional",
+        "item5": "Workshops práticos: Instalação e configuração de ferramentas básicas"
       },
       "afternoon": {
         "title": "Tarde",
-        "item1": "Workshop científico (grupos de pesquisa)",
+        "item1": "Palestra 3 (parte 1): Carlos Soares",
         "item2": "Coffee break",
-        "item3": "Workshop científico (grupos de pesquisa)",
-        "item4": "Perspectivas de cooperação (discussão técnica)"
+        "item3": "Palestra 3 (parte 2): Carlos Soares",
+        "item4": "Workshops práticos"
       }
     },
     "day2": {"title": "Dia 2",
       "morning": {
         "title": "Manhã",
-        "item1": "Boas vindas",
-        "item2": "Workshop científico (trabalhos de MsC e PhD)",
-        "item3": "Coffee break",
-        "item4": "Workshop científico (trabalhos de MsC e PhD)"
+        "item1": "Palestra 4 (parte 1): Peter Flach",
+        "item2": "Coffee break",
+        "item3": "Palestra 4 (parte 2): Peter Flach",
+        "item4": "Workshop prático"
       },
       "afternoon": {
         "title": "Tarde",
-        "item1": "Workshop científico (trabalhos de MsC e PhD)",
+        "item1": "Palestra 5: Palestrante nacional",
         "item2": "Coffee break",
-        "item3": "Planejamento para cooperação de grupos",
-        "item4": "Síntese e apresentação de resultados"
+        "item3": "Palestra 6: Palestrante nacional",
+        "item4": "Poster session",
+        "item5": "Encerramento"
       }
     }
   },

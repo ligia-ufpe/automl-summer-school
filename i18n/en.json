@@ -72,32 +72,34 @@
       "morning": {
         "title": "Morning",
         "item1": "Welcome",
-        "item2": "AutoML landscape overview",
+        "item2": "Lecture 1: National speaker",
         "item3": "Coffee break",
-        "item4": "Research groups introductions"
+        "item4": "Lecture 2: National speaker",
+        "item5": "Hands-on workshops: Installation and setup of basic tools"
       },
       "afternoon": {
         "title": "Afternoon",
-        "item1": "Scientific workshop (research groups)",
+        "item1": "Lecture 3 (part 1): Carlos Soares",
         "item2": "Coffee break",
-        "item3": "Scientific workshop (research groups)",
-        "item4": "Cooperation perspectives (technical discussion)"
+        "item3": "Lecture 3 (part 2): Carlos Soares",
+        "item4": "Hands-on workshops"
       }
     },
     "day2": { "title": "Day 2",
       "morning": {
         "title": "Morning",
-        "item1": "Welcome",
-        "item2": "Scientific workshop (MSc and PhD works)",
-        "item3": "Coffee break",
-        "item4": "Scientific workshop (MSc and PhD works)"
+        "item1": "Lecture 4 (part 1): Peter Flach",
+        "item2": "Coffee break",
+        "item3": "Lecture 4 (part 2): Peter Flach",
+        "item4": "Hands-on workshop"
       },
       "afternoon": {
         "title": "Afternoon",
-        "item1": "Scientific workshop (MSc and PhD works)",
+        "item1": "Lecture 5: National speaker",
         "item2": "Coffee break",
-        "item3": "Group cooperation planning",
-        "item4": "Synthesis and presentation of results"
+        "item3": "Lecture 6: National speaker",
+        "item4": "Poster session",
+        "item5": "Closing"
       }
     }
   },
